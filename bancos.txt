@@ -1,0 +1,1 @@
+SELECT pets.nome, solicitar.nome FROM pets INNER JOIN solicitar ON pets.id_usuario = solicitar.id;
